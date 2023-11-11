@@ -56,6 +56,7 @@ describe("walk", () => {
 
     expect(() => pet.walk()).toThrow("Your pet is no longer alive :(");
   });
+
   it("increases fitness by 4", () => {
     const pet = new Pet("fido");
     pet.fitness = 4;
